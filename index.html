@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Account</h1>
+    <form action="" id="form">
+        <div>
+            <label for="name">Имя</label>
+            <input type="text" id="nameInput">
+        </div>
+        <div>
+            <label for="surname">Фамилия</label>
+            <input type="text" id="surnameInput">
+        </div>
+        <div>
+            <label for="profit">Доход</label>
+            <input type="number" name="" id="profitInput">
+        </div>
+        <div>
+            <label for="expense">Расход</label>
+            <input type="number" name="" id="expenseInput">
+        </div>
+        <button id="btn" type="submit">Добавить</button>
+    </form>
+    <fieldset id="outputForm">
+        <legend>Итоговые значения</legend>
+        <span>Имя</span><input type="text" name="" disabled value="" id="nameOutput">
+        <span>Фамилия</span><input type="text" name="" disabled value="" id="surnameOutput">
+        <div>
+            <div>
+                <label for="profit">Доходы</label>
+                <input type="text" name="" disabled value="" id="profitOutput">
+            </div>
+            <div>
+                <label for="expense">Расходы</label>
+                <input type="text" name="" disabled value="" id="expenseOutput">
+            </div>
+        </div>
+    </fieldset>
+
+    <script src="./script.js"></script>
+</body>
+</html>
